@@ -15,7 +15,7 @@ conn.connect((err)=>{
         console.log("connected to mysql db");
     }
 })
-app.post("/",(req,res)=>{
+app.get("/",(req,res)=>{
     res.send("hello");
 });
 var port=0;
